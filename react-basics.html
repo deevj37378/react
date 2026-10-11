@@ -12,8 +12,14 @@
 
     <script src="https://unpkg.com/supersimpledev/babel.js"></script>
     <script type="text/babel">
+
+        const div = <div>
+            <button>hello</button>
+            <p>This is a paragraph</p>
+            </div>
       const container = document.querySelector('.js-container');
-      ReactDOM.createRoot(container).render('Welcome to SuperSimpleDev React Course');
+      ReactDOM.createRoot(container).render(div); 
     </script>
   </body>
 </html>
+<!-- This is the minimum amount of code needed to setup react -->
