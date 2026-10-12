@@ -23,3 +23,7 @@
             // </div>
 
 //state is data that is connected to HTML, when we will update this data, it will update the html
+//... is the spread operator, it takes the values in an array and copies it into a new array.
+//keep in mind that state is used when the data is changed over time, and we need the changed data to append on its own.
+//we usually have nested components, therefore we will use lifting the state up feature that allows us to share state between multiple component.
+//all we have to do is update the state in the updater function and react will change the html for us.
