@@ -10,3 +10,16 @@
 //const result = value1 ? value2 : value3
 //it means if value1 is true then its result is value2 otherwise its value3, it allows us to insert an if-else statement directly inside jsx without using the if keyword.
 //.map() lets us assign a new value to the original value, in an array.
+
+//<div style={{ maxWidth: "500px", margin: "20px auto", fontFamily: "sans-serif" }}>
+            //   <ChatInput />
+            //   {chatMessages.map((chatMessage, index) => (
+            //     <ChatMessage
+            //       key={index}
+            //       message={chatMessage.message}
+            //       sender={chatMessage.sender}
+            //     />
+            //   ))}
+            // </div>
+
+//state is data that is connected to HTML, when we will update this data, it will update the html
